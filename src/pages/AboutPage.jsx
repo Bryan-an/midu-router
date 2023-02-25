@@ -1,4 +1,4 @@
-import { navigate } from '../utils';
+import { Link } from '../components';
 
 export function AboutPage() {
   return (
@@ -14,7 +14,7 @@ export function AboutPage() {
           clone with midudev.
         </p>
       </div>
-      <button onClick={() => navigate('/')}>Home</button>
+      <Link to="/">Home</Link>
     </>
   );
 }
