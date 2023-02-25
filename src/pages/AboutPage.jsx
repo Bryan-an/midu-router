@@ -1,3 +1,5 @@
+import { navigate } from '../utils';
+
 export function AboutPage() {
   return (
     <>
@@ -12,7 +14,7 @@ export function AboutPage() {
           clone with midudev.
         </p>
       </div>
-      <a href="/">Home</a>
+      <button onClick={() => navigate('/')}>Home</button>
     </>
   );
 }
