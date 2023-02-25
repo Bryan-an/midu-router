@@ -1,9 +1,13 @@
-import { NotFound, Router, routes } from './routes';
+import { AboutPage, HomePage } from './pages';
+import { NotFound, Route, Router, routes } from './routes';
 
 function App() {
   return (
     <main>
-      <Router routes={routes} defaultComponent={NotFound} />
+      <Router routes={routes} defaultComponent={NotFound}>
+        <Route path="/" Component={HomePage} />
+        <Route path="/about" Component={AboutPage} />
+      </Router>
     </main>
   );
 }
