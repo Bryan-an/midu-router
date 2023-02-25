@@ -5,3 +5,7 @@ export function navigate(href) {
   const navigationEvent = new Event(EVENTS.PUSHSTATE);
   window.dispatchEvent(navigationEvent);
 }
+
+export function getCurrentPath() {
+  return window.location.pathname;
+}

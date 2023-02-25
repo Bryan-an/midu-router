@@ -1,1 +1,1 @@
-export { navigate } from './navigate';
+export { navigate, getCurrentPath } from './navigate';
