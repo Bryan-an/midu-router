@@ -1,9 +1,9 @@
-import { Router, routes } from './routes';
+import { NotFound, Router, routes } from './routes';
 
 function App() {
   return (
     <main>
-      <Router routes={routes} />
+      <Router routes={routes} defaultComponent={NotFound} />
     </main>
   );
 }
