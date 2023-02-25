@@ -1,4 +1,4 @@
-import { AboutPage, HomePage } from '../pages';
+import { AboutPage, HomePage, SearchPage } from '../pages';
 
 export const routes = [
   {
@@ -8,5 +8,9 @@ export const routes = [
   {
     path: '/about',
     Component: AboutPage
+  },
+  {
+    path: '/search/:query',
+    Component: SearchPage
   }
 ];
