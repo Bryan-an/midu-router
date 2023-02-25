@@ -1,4 +1,4 @@
-import { AboutPage, HomePage } from './pages';
+import { HomePage, AboutPage } from './pages';
 import { NotFound, Route, Router, routes } from './routes';
 
 function App() {
