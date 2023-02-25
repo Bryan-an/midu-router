@@ -9,7 +9,7 @@
 - [x] Soportar ruta por defecto (404)
 - [x] Soportar rutas con parámetros
 - [x] Componente <Route /> para hacerlo declarativo
-- [-] Lazy Loading de las rutas
+- [ ] Lazy Loading de las rutas
 - [x] Hacer un i18n con las rutas
 - [x] Testing
 - [x] Publicar el paquete en NPM
